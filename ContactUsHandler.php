@@ -1,9 +1,9 @@
 <?php
 
-    $name = $_GET['Name'];
-    $visitor_mail = $_GET['E-Mail'];
-    $contact = $_GET['PhoneNo.'];
-    $message = $_GET['Message'];
+    $name = $_REQUEST['Name'];
+    $visitor_mail = $_REQUEST['E-Mail'];
+    $contact = $_REQUEST['PhoneNo.'];
+    $message = $_REQUEST['Message'];
 
     $email_from = 'dc915585@gmail.com';
     $email_subject = "Contact Us For Submission";
