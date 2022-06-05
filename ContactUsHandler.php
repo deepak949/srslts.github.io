@@ -15,5 +15,5 @@
     $headers = "From : $email_from \r\n";
     $headers = "Reply To : $visitor_mail \r\n";
     mail($to,$email_subject,$email_body,$headers);
-    header("Location : ContactUs.html");
+    header("Location : index.html");
 ?>
